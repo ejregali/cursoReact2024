@@ -21,13 +21,13 @@ function Navbar() {
         <ul className="left-links">
           <li><a href="#">SHOP</a></li>
           <li><a href="#">NOSOTROS</a></li>
-          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CATEGORIAS</a></li>
           <li><a href="#">TESTIMONIOS</a></li>
         </ul>
         <div className="nav-icons">
           <SearchWidget/>
           <UserWidget/>
-          <CartWidget number={8} handleClick={handleClick}/>
+          <CartWidget number={5} handleClick={handleClick}/>
           <Login/>
         </div>
 
