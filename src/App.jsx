@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer greeting={"#SCANDLEXPERIENCE 2024"}/>
+      <ItemListContainer greeting={"#SCANDLEXPERIENCE"}/>
     </>
   );
 }
