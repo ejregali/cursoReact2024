@@ -2,6 +2,10 @@
 import React from 'react'
 import './navBarStyled.css';
 import CartWidget from '../CartWidget/CartWidget';
+import Logo from '../../assets/img/logo.svg';
+import UserWidget from '../UserWidget/UserWidget';
+import SearchWidget from '../SearchWidget/SearchWidget';
+import Login from '../Login/Login';
 
 function Navbar() {
   const handleClick = (event) => {
@@ -9,27 +13,26 @@ function Navbar() {
   };
   
   return (
-    <div className='navBar'>
-        <h1>NAVBAR</h1>
-        <nav>
-      <div className="left-icons">
-        <img src="search-icon.png" alt="Buscar" />
-        <img src="cart-icon.png" alt="Carrito" />
-        <button>Login</button>
-      </div>
-      <div className="logo">
-        <h1>SOPLALAVELA</h1>
-      </div>
-      <div className="right-links">
-        <a href="#">SHOP</a>
-        <a href="#">ABOUT</a>
-        <a href="#">BLOG</a>
-        <a href="#">TESTIMONIALS</a>
-      </div>
-    </nav>
-        <CartWidget number={8} handleClick={handleClick}/>
-        
-    </div>
+    <>
+      <nav>
+        <div className="logo">
+          <img src={Logo} alt='Logo' className='logo'/>        
+        </div>
+        <ul className="left-links">
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">NOSOTROS</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">TESTIMONIOS</a></li>
+        </ul>
+        <div className="nav-icons">
+          <SearchWidget/>
+          <UserWidget/>
+          <CartWidget number={8} handleClick={handleClick}/>
+          <Login/>
+        </div>
+
+      </nav>
+    </>
   );
 }
 

@@ -1,19 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
-.navBar{
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    background-color: #F9F5EA;
+    color: white;
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    box-shadow: -4px 2px 40px 0px rgba(171, 165, 165, 0.75);
-    padding: 15px 30px;
-}
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .nav-icons, .left-links {
+    display: flex;
+    align-items: right;
+    list-style: none;
+  }
+  
+  .left-icons img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .left-links a {
+    text-decoration: none;
+    color: #0C0D12;
+    margin: 0 10px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3%;
+    line-height: 32px;
+    list-style: none;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  
+  button:hover {
+    background-color: #C9A489;
+  }
 
-.navBar h1{
-    color: #563d71;
-    font-style: italic;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-h1 span{
-    font-size: 15px;
-}
+  

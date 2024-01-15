@@ -1,0 +1,14 @@
+.btnNav {
+    width: 115px;
+    height: 46px;
+    color: #0C0D12;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #0C0D12;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    background-color: #F9F5EA;
+  }

@@ -2,19 +2,16 @@
 
 import React from 'react'
 import './cartWidget.css'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Bag from '../../assets/img/bag.svg';
 
-function CartWidget({ number, handleClick }) {
+
+function CartWidget({ number, HandleClick }) {
   const handleClick = (event) => {
     console.log(event);
   };
   return (
     <div className='containerCart'>
-        <ShoppingCartIcon className="cartIcon" 
-        onClick={(event) => {
-          handleClick(event);
-          }}
-        />
+      <img src={Bag} alt='Bag' className="cartIcon" onClick={(event) => {handleClick(event);}}/> 
         <span className='cartNumber'>{number}</span>
     </div>
   );
