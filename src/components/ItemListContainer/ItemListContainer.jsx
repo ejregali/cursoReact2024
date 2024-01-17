@@ -1,11 +1,13 @@
 import React from 'react'
 import './itemListContainerStyled.css'
 import BannerImg from '../../assets/img/imgbanner.jpg';
+import ProductCard from '../ProductCard/ProductCard';
 
 
 function ItemListContainer({greeting}) {
     console.log(greeting);
   return (
+    <>
     <div className='containerBanner'>
         <img src={BannerImg} alt='Vela'/>
         <div className="contenidoBanner">
@@ -14,6 +16,8 @@ function ItemListContainer({greeting}) {
             <button>PRODUCTOS</button>
         </div>
     </div>
+    <ProductCard />
+    </>
   )
 }
 

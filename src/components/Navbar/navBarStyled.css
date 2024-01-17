@@ -9,15 +9,22 @@ body {
     background-color: #F9F5EA;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
+
+
   }
   
   .nav-icons, .left-links {
     display: flex;
-    align-items: right;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+  }
+
+  .nav-icons {
+    margin-right: 25px;
   }
   
   .left-icons img {
@@ -39,6 +46,7 @@ body {
   
   .logo {
     width: 180px;
+    margin-right: 240px;
   }
   
   
