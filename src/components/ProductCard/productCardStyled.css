@@ -1,3 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+
+.containerCard{
+    height: 456px;
+    margin: 25px;
+}
+
 .containerCard img{
     width: 290px;
+    -webkit-box-shadow: 9px 7px 25px -4px rgba(0,0,0,0.55);
+-moz-box-shadow: 9px 7px 25px -4px rgba(0,0,0,0.55);
+box-shadow: 9px 7px 25px -4px rgba(0,0,0,0.55);
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 142px;
+    margin-top: 26px;
+}
+
+.columna{
+    width: 290px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.titulo{
+font-weight: 600;
+font-family: 'Zilla Slab', serif;
+font-size: 22px;
+line-height: 32px;
+letter-spacing: 3%;
+margin: 0;
+width: 160px;
+
+}
+
+.precios{
+display: flex;
+height: 32px;
+padding: 0;
+
+}
+
+.precioreal{
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 3%;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    width: 33px;
+    height: 32px;
+    margin: 0;
+
+}
+
+.preciotachado{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    font-family: 'Zilla Slab', serif;
+    line-height: 25.6px;
+    margin: 0;
+    text-decoration:line-through ;
+    color: #9E9EA0;
+
+}
+
+.detalle{
+    font-weight: 400;
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 3%;
+    margin-top: 10px;
+}
+
+.contenido button{
+    width: 290px;
+    height: 46px;
+    color: #0C0D12;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #0C0D12;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    background-color: #F9F5EA;
 }

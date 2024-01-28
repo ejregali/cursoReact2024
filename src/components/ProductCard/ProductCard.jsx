@@ -1,19 +1,42 @@
 import React from 'react'
 import './productCardStyled.css'
 import Card1 from '../../assets/img/card1.jpg';
+import {useEffect, useState} from 'react';
+import {getProducts} from '../../serverMock/productMock';
+
+
+
 
 function ProductCard() {
+  const [items, setItems] = useState([])
+useEffect (() => {
+  getProducts().then((res)=> setItems(res));
+},[])
+
   return (
-    <div className='containerCard'>
-        <img src={Card1} alt="Card1/Producto1" />
-        <div className="precio">
-            <h1 className='titulo'>Relax de Vainilla</h1>
-            <h1 className='precio'>$20</h1>
-            <h2 className='detalle'>Detalle</h2>
-            <button>AD TO CART +</button>
-        </div>
-    </div>
-  )
-}
+<>
+      {items.map ((item) => {
+          const { img, name, id, price, category, description} = item;
+          return (
+            <div key={id} className='containerCard'>
+              <img src={img} alt={name} />
+              <div className="contenido">
+                <div className="columna">
+                  <h1 className="titulo">{name}</h1>
+                  <div className="precios">
+                    <h1 className="precioreal">${price}</h1>
+                    <h1 className="preciotachado">$24</h1>
+                  </div>
+                </div>
+                <h2 className="detalle">{description}</h2>
+                <button>ADD TO CART +</button>
+              </div>
+            </div>
+          );
+          }
+    )}
+</>
+  )}
+
 
 export default ProductCard

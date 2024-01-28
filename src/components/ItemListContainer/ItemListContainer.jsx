@@ -3,9 +3,9 @@ import './itemListContainerStyled.css'
 import BannerImg from '../../assets/img/imgbanner.jpg';
 import ProductCard from '../ProductCard/ProductCard';
 
-
 function ItemListContainer({greeting}) {
-    console.log(greeting);
+
+
   return (
     <>
     <div className='containerBanner'>
@@ -16,7 +16,14 @@ function ItemListContainer({greeting}) {
             <button>PRODUCTOS</button>
         </div>
     </div>
-    <ProductCard />
+    <div className="tituloLista">
+      <h2>TENDENCIA</h2>
+      <h1>Conoce nuestros mejores procuctos </h1>
+    </div>
+    <div className="listadeproductos">
+        <ProductCard />
+
+    </div>
     </>
   )
 }
