@@ -64,10 +64,21 @@
 .listadeproductos{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 40px 180px;
     flex-direction: row;
     flex-wrap: wrap;
+    
 
+}
+
+@media (min-width: 1440px) {
+    .listadeproductos{
+        
+        margin: 40px 330px;
+    
+        
+    }
+    
 }
 
 .tituloLista{

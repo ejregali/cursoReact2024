@@ -12,10 +12,10 @@ function Footer() {
                 <img src={LogoBlanco} alt="" />
                 <ul>
                     <li>NEW ARRIVALS</li>
-                    <li>ABOUT</li>
+                    <li>NOSOTROS</li>
                     <li>INFLUENCERS</li>
                     <li>BLOG</li>
-                    <li>CONTACT US</li>
+                    <li>CONTACTNEOS</li>
                 </ul>
                 <ul>
                     <li>FACEBOOK</li>
@@ -26,7 +26,7 @@ function Footer() {
 
             </div>
             <div className="textosDer">
-                <h1>Stay in the know — we’ll send you offers & more.</h1>
+                <h1>Manténgase informado: le enviaremos ofertas y más..</h1>
                 <button>SING UP</button>
             </div>
       </div>
