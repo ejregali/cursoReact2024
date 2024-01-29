@@ -22,7 +22,6 @@ function ItemListContainer({greeting}) {
     </div>
     <div className="listadeproductos">
         <ProductCard />
-
     </div>
     </>
   )

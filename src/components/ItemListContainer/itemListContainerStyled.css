@@ -64,9 +64,10 @@
 .listadeproductos{
     display: flex;
     justify-content: space-around;
-    margin: 25px;
+    margin: 10px;
     flex-direction: row;
-    width: vh;
+    flex-wrap: wrap;
+
 }
 
 .tituloLista{
