@@ -1,6 +1,5 @@
 import React from 'react'
-import './productCardStyled.css'
-import Card1 from '../../assets/img/card1.jpg';
+import './itemStyled.css'
 import {useEffect, useState} from 'react';
 import {getProducts} from '../../serverMock/productMock';
 

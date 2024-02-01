@@ -1,7 +1,7 @@
 import React from 'react'
 import './itemListContainerStyled.css'
 import BannerImg from '../../assets/img/imgbanner.jpg';
-import ProductCard from '../ProductCard/ProductCard';
+import Item from '../Item/Item';
 
 function ItemListContainer({greeting}) {
 
@@ -18,10 +18,10 @@ function ItemListContainer({greeting}) {
     </div>
     <div className="tituloLista">
       <h2>TENDENCIA</h2>
-      <h1>Conoce nuestros mejores procuctos </h1>
+      <h1>Conoce nuestros mejores productos </h1>
     </div>
     <div className="listadeproductos">
-        <ProductCard />
+        <Item />
     </div>
     </>
   )

@@ -33,7 +33,7 @@ function Footer() {
       <div className="boxFooter">
         <div className="rights">
             <h2>© 2024 Scandle. All right reserved.</h2>
-            <h2>Design Made By EjREGALI Agency</h2>
+            <h2>Design Made By EjRegali Agency</h2>
         </div>
       </div>
     </div>
