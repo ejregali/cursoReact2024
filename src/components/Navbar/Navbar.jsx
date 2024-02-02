@@ -6,6 +6,7 @@ import Logo from '../../assets/img/logo.svg';
 import UserWidget from '../UserWidget/UserWidget';
 import SearchWidget from '../SearchWidget/SearchWidget';
 import Login from '../Login/Login';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const handleClick = (event) => {
@@ -17,13 +18,13 @@ function Navbar() {
       <nav>
         
         <ul className="left-links">
-          <li><a href="#">SHOP</a></li>
-          <li><a href="#">NOSOTROS</a></li>
-          <li><a href="#">CATEGORIAS</a></li>
-          <li><a href="#">TESTIMONIOS</a></li>
+          <Link to='/'><li><a href="#">SHOP</a></li></Link>
+          <Link to='/nosotros'><li><a href="#">NOSOTROS</a></li></Link>
+          <Link to='/categorias'><li><a href="#">CATEGORIAS</a></li></Link>
+          <Link to='/testimonios'><li><a href="#">TESTIMONIOS</a></li></Link>
         </ul>
         <div className="logo">
-          <img src={Logo} alt='Logo' className='logo'/>        
+          <Link to='/'><img src={Logo} alt='Logo' className='logo'/></Link>  
         </div>
         <div className="nav-icons">
           <SearchWidget/>

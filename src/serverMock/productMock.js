@@ -9,7 +9,8 @@ export const productos = [
     price: 20, 
     category: 'Hogar',
     description: 'Cake Smell', 
-    img: 'https://erdevar.000webhostapp.com/card1.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card1.jpg',*/
 },
     
 {
@@ -19,25 +20,28 @@ export const productos = [
     price: 40, 
     category: 'Relax',
     description: 'Enjoy the afternoon', 
-    img: 'https://erdevar.000webhostapp.com/card2.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card2.jpg',*/
     },
 {
     id: 3, 
     name: 'Brown Relax',
     stock: 10, 
     price: 33, 
-    category: 'elements',
+    category: 'Relax',
     description: 'Together in the afternoon', 
-    img: 'https://erdevar.000webhostapp.com/card3.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card3.jpg',*/
 },
 {
     id: 4, 
     name: 'Moon Morning',
     stock: 10, 
     price: 34, 
-    category: 'elements',
+    category: 'Relax',
     description: 'The scent of the morning', 
-    img: 'https://erdevar.000webhostapp.com/card4.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card4.jpg',*/
 },
 {
     id: 5, 
@@ -46,16 +50,18 @@ export const productos = [
     price: 40, 
     category: 'elements',
     description: 'Aurora in North Pole', 
-    img: 'https://erdevar.000webhostapp.com/card5.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card5.jpg',*/
 },
 {
     id: 6, 
     name: 'Woman Secret',
     stock: 10, 
     price: 38, 
-    category: 'elements',
+    category: 'Hogar',
     description: 'Woman smell', 
-    img: 'https://erdevar.000webhostapp.com/card6.jpg',
+    img: 'https://media.istockphoto.com/id/1690932990/es/foto/vela-encendida-libro-y-rosas-foto-est%C3%A9tica-de-verano.jpg?s=1024x1024&w=is&k=20&c=JJwOTzD2A3imlHP5zcPlDER9GnxkAA8Db9XvdHboGt4=',
+    /*img: 'https://erdevar.000webhostapp.com/card6.jpg',*/
 }
 ]
 

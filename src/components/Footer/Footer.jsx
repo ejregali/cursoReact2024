@@ -13,14 +13,12 @@ function Footer() {
                 <ul>
                     <li>NEW ARRIVALS</li>
                     <li>NOSOTROS</li>
-                    <li>INFLUENCERS</li>
                     <li>BLOG</li>
                     <li>CONTACTNEOS</li>
                 </ul>
                 <ul>
                     <li>FACEBOOK</li>
                     <li>INSTAGRAM</li>
-                    <li>TWITTER</li>
                     <li>LINKEDIN</li>
                 </ul>
 

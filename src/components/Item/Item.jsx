@@ -28,6 +28,7 @@ useEffect (() => {
                   </div>
                 </div>
                 <h2 className="detalle">{description}</h2>
+                <h2 className="detalle">Category.. {category}</h2>
                 <button>ADD TO CART +</button>
               </div>
             </div>
