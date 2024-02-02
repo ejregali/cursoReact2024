@@ -18,7 +18,7 @@ function Navbar() {
       <nav>
         
         <ul className="left-links">
-          <Link to='/'><li><a href="#">SHOP</a></li></Link>
+          <Link to='/shop'><li><a href="#">SHOP</a></li></Link>
           <Link to='/nosotros'><li><a href="#">NOSOTROS</a></li></Link>
           <Link to='/categorias'><li><a href="#">CATEGORIAS</a></li></Link>
           <Link to='/testimonios'><li><a href="#">TESTIMONIOS</a></li></Link>

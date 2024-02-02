@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+
+.containerShop{
+display: flex;
+justify-content: space-evenly;
+}
+
+.filter{
+    width: 700px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.listShop{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+}
+
+.tituloListShop{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 1000px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.tituloListShop h1{
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+
+}
+
+.shortBy{
+    display: flex;
+  
+
+}
+
+.shortBy h2{
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+   
+}
+
+.itemlistShop {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px 100px;
+    padding: 10px;
+    
+
+}
+
+.containerCard{
+  
+    height: 515px;
+    width: 300px;
+    margin: 15px;
+}

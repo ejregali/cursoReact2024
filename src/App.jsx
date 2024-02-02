@@ -5,6 +5,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Footer from './components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Item from './components/Item/Item';
+import ShopComp from './components/ShopComp/ShopComp';
 
 function App() {
   return (
@@ -12,12 +13,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={"#SCANDLEXPERIENCE2024"}/>}/>
-        <Route path='/shop' element={<Item/>}/>
+        <Route path='/shop' element={<ShopComp/>}/>
         <Route path='/nosotros' />
         <Route path='/category' />
-
-
-
       </Routes>
       <Footer/>
       
