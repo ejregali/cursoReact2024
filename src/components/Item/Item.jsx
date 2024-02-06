@@ -2,6 +2,7 @@ import React from 'react'
 import './itemStyled.css'
 import {useEffect, useState} from 'react';
 import {getProducts} from '../../serverMock/productMock';
+import FilterTask from '../Filter/FilterTask';
 
 
 

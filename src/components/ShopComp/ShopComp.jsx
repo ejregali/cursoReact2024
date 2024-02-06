@@ -1,14 +1,16 @@
 import React from 'react'
 import Item from '../Item/Item'
 import './shopCompStyled.css';
-import FilterTask from '../FilterTask/FilterTask';
+
 
 function ShopComp() {
+
   return (
     <>
+    
     <div className='containerShop'>
         <div className="filter">
-            <FilterTask />
+            
         </div>
         
             <div className="itemlistShop">
@@ -24,8 +26,8 @@ function ShopComp() {
         
         
     </div>
-    </>
-  )
+    </>)
+
 }
 
 export default ShopComp
