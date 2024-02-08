@@ -1,7 +1,7 @@
 import React from 'react'
 import Item from '../Item/Item'
 import './shopCompStyled.css';
-
+import {filterState} from 'react';
 
 function ShopComp() {
 
@@ -10,7 +10,6 @@ function ShopComp() {
     
     <div className='containerShop'>
         <div className="filter">
-            
         </div>
         
             <div className="itemlistShop">

@@ -1,9 +1,10 @@
-import {userState} from 'react';
+import {useState} from 'react';
 
-const FilterTask = ({render}) =>{
-    const [filterState, setFilterState] = userState('all');
 
-    const handleChange = (event) =>{
+const FilterTask = ({ render }) => {
+    const [filterState, setFilterState] = useState('all');
+
+    const handleChange = (event) => {
         setFilterState(event.target.value);
     };
 

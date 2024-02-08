@@ -1,13 +1,27 @@
 import React from 'react'
-import TaskList from './TaskList';
+import TaskList from './lolo';
 import FilterTask from '../Filter/FilterTask';
+import {filterState} from 'react';
+import {getProducts, productos} from '../../serverMock/productMock';
+import Item from '../Item/Item';
 
 const Container = () => {
-    const tasks = [
+    /*const productos = [
         { id: '1', title: 'Comprar Frutas', completed: true },
         { id: '2', title: 'Estudiar React', completed: true },
-         {id: '3', title: 'Entrgar PDF', completed: true },
-    ];
+         {id: '3', title: 'Entrgar PDF', completed: false },
+    ];*/
+
+    const aplyfilter = (filterState) => {
+      switch(filterState){  
+        case "all":
+          return productos;
+        case "Hogar":
+          return productos.filter((productos) => productos.category);
+        case "Relax":
+          return productos.filter((productos) => !productos.category);
+      }
+    };
 
   return (
     <div>
@@ -17,14 +31,15 @@ const Container = () => {
                     <label htmlFor="filter">Filtra por estados</label>
                     <select onChange={handleChange} value={filterState}>
                         <option value="all">Todos</option>
-                        <option value="completed">Completados</option>
-                        <option value="uncompleted">Sin completar</option>
+                        <option value="completed">Relax</option>
+                        <option value="uncompleted">Hogar</option>
                     </select>
+                    <Item productos={aplyfilter(filterState)}/>
                 </div>
             )}
         />
 
-      <TaskList tasks={tasks}/>
+      
     </div>
   );
 };
