@@ -94,3 +94,26 @@ padding: 0;
     font-weight: 500;
     background-color: #F9F5EA;
 }
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories button{
+    color: #0C0D12;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #0C0D12;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    background-color: #F9F5EA;
+    margin: 0 10px;
+
+}

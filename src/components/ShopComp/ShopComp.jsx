@@ -1,26 +1,18 @@
 import React from 'react'
 import Item from '../Item/Item'
 import './shopCompStyled.css';
-import {filterState} from 'react';
+
 
 function ShopComp() {
 
-  return (
+return (
     <>
     
     <div className='containerShop'>
-        <div className="filter">
-        </div>
         
             <div className="itemlistShop">
-                <div className="tituloListShop">
-                    <h1>Candles</h1>
-                    <div className="shortBy">
-                        <h2>Sort By: rffr</h2>
-                    </div>
-                </div>
                 <Item/>
-         </div>
+        </div>
             
         
         
